@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/* Body Background Styles */
+.mp {
+   background: url(img/mp_back.jpg) center center / cover no-repeat fixed;
+   height: 100%; 
+}
+
+.k {
+   background: url(img/k_back.jpg) center center / cover no-repeat fixed ;
+    height: 100%;
+}
+
+.jc {
+   background: url(img/jc_back.jpg) center center / cover no-repeat fixed ;
+   height: 100%;
+}
+
+
+/* Thank You Page Styles */
+.ty {
+   height: 400px;
+}
+
+.tyText {
+   margin: 200px auto auto;
+}
+
+/* About Page Styles */
+#map iframe {
+   height: 400px;
+}
+
+
+.sliderImg{
+   height: 490px;
+}
+
+.sliderCaption{
+   color: black;
+   background-color: rgba(255,255,255,0.8);
+   width: 50%;
+   margin: auto;
+}
+
+/* All Page Styles */
+#logo {
+   font-size: 33px;
+}
+
+.pageTop {
+   margin-top: 70px;
+}
+
+.navLinkfont {
+   font-size: 24px;
+}
+
+.wbackground{
+   background-color: rgba(255,255,255,0.8);
+}
+
+.navK {
+   background: rgb(0,204,0);
+}
+
+.navMP {
+   background: rgb(255,153,153);
+}
+
+.navJC {
+   background: rgb(255,215,0)
+}
+
+ul li {
+   list-style-type: none;
+}
+
+i {
+   margin-top: 8px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  height: 500px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+
+
+/* Hide the images by default */
+.mySlides {
+   display: none;
+}
+
+/* Slide Images */
+.sliderImg {
+   height:500px;
+   margin: auto;
+}
+
+/* Caption text */
+.text {
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  font-size: 18px;
+  padding: 8px 12px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
